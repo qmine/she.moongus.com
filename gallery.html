@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Moongus</title>
+
+	<!-- Favicon -->
+	<link href="./assets/images/sidebar/favicon.ico" rel="icon">
+
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/media-query.css">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@600;900&display=swap" rel="stylesheet">
+</head>
+<body class="light-page">
+	<!--Preloader start here -->
+	<div class="loader-wrapper light-wrapper">
+		<div class="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	<!--Preloader end here -->
+	<!-- <div class='cursor'></div> -->
+	<div class="main-wrapper">
+		<!--Sidebar Of murillo start here -->
+		<header class="muri-header" id="muri_header">
+			<nav class="primary-menu navbar navbar-expand-lg border-bottom-0 muri-sidebar white-background">
+				<!--Close icon start here -->
+				<div class="close-btn hash-has-sub">
+					<a id="nav-close2" class="nav-close hash">
+						<div class="close-line" id="hamburger-7">
+							<span class="line"></span>
+							<span class="line"></span>
+							<span class="line"></span>
+						</div>
+					</a>
+				</div>
+				<!--Close icon end here -->
+				<div class="col-sm-3 col-md-3 back-color-shape"></div>
+				<div class="container-fluid px-lg-3 flex-lg-column light-navbar profile-img-col justify-content-center muri-sidebar-content"> 
+					<!--Profile and Logo --> 
+						<a href="index.html" class="muri-prof-img">
+							<span class="bg-dark-2 d-lg-inline-block">
+								<img class="img-fluid d-block muri-pro-pic" src="./assets/images/sidebar/profile.png"  alt="murillo profile pic">
+							</span>
+						</a>
+						<div class="murillo-logo"> 
+							<a href="index.html" class="mt-lg-4 portfolio-logo">
+								<span class="d-lg-inline-block">
+									<img class="muri-logo" src="./assets/images/sidebar/logo.png" alt="This is murillo logo">
+								</span>
+							</a>
+						</div>
+					<!-- Profile and Logo End -->
+					<!-- Navbar tab options start here -->
+					<div id="header-nav" class="collapse navbar-collapse light-sidebar w-100 my-lg-auto">
+						<ul class="navbar-nav muri-navbar-nav text-lg-center my-lg-auto tabs">
+							<li class="nav-item muri-navbar-item" data-tab-value="#muri_home_content">
+								<a class="nav-link muri-navbar-link smooth-scroll" href="index.html">
+									<i class="fa-solid fa-right-long"></i>
+									<span class="navbar-text"> Welcome</span>
+								</a> 
+							</li>
+							<li class="nav-item muri-navbar-item" data-tab-value="#muri_about_content">
+								<a class="nav-link muri-navbar-link smooth-scroll" href="about.html">
+									<i class="fa-solid fa-right-long"></i>
+									<span class="navbar-text"> About </span>
+								</a>
+							</li>
+							<li class="nav-item muri-navbar-item active" data-tab-value="#muri_portfolio_content">
+								<a class="nav-link muri-navbar-link smooth-scroll active" href="gallery.html">
+									<i class="fa-solid fa-right-long"></i>
+									<span class="navbar-text"> Gallery </span>
+								</a>
+							</li>
+							<li class="nav-item muri-navbar-item" data-tab-value="#muri_news_content">
+								<a class="nav-link muri-navbar-link smooth-scroll" href="news.html">
+									<i class="fa-solid fa-right-long"></i>
+									<span class="navbar-text"> News </span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--Navbar tab options end here -->
+					<!--Contact us section start here -->
+					<div class="muri-contact w-100 my-lg-auto" id="muri_contact">
+						<div class="muri-contact-title black-text">Connect with me</div>
+						<ul class="nav-social-icons text-lg-center">
+							<li class="nav-social-item light-gray-back">
+								<a href="javascript:void(0);" class="nav-social-link text-dark">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="nav-social-item light-gray-back">
+								<a href="javascript:void(0);" class="nav-social-link text-dark">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</li>
+							<li class="nav-social-item light-gray-back">
+								<a href="javascript:void(0);" class="nav-social-link text-dark">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+							</li>
+							<li class="nav-social-item light-gray-back">
+								<a href="javascript:void(0);" class="nav-social-link text-dark">
+									<i class="fa-brands fa-discord"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--Contact us section end her -->
+				</div>
+			</nav>
+		</header>
+		<!--Sidebar of murillo end here -->
+		<!--Mobile Screen Menubar -->
+		<div class="muri-resp-header light-header">
+			<div class="resposnive-navbar">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-6 col-md-4 col-lg-4">
+							<a class="navbar-brand resp-muri-logo" href="index.html">
+								<img src="./assets/images/sidebar/logo.png" alt="this is a logo of murillo page" class="align-text-top">
+							</a>
+						</div>
+						<div class="col-6 col-md-8 col-lg-8 icon-column position-relative">
+							<div class="three col">
+								<div class="hamburger" id="hamburger-6">
+									<span class="line"></span>
+									<span class="line"></span>
+									<span class="line"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Mobile Screen Menubar end here -->
+		<div class="muri-content-wrap tab-content light-background">
+			<div class="line-circle-shape lite-line-circle">
+				<img src="./assets/images/homeimage/pink-line-circle.png" class="muri-line-circle" alt="this is a line circle shape">
+			</div>
+			<div class="dot-rectangle-one lite-dot-rectangle">
+				<img src="./assets/images/homeimage/pink-dot-rectangle.png" class="muri-dot-rectangle-one" alt="this is a dot rectangle shape one">
+			</div>
+			 <!--Portfolio Section start her -->
+			<section class="muri-portfolio-content min-vh-100 tabs_tab" id="muri_portfolio_content">
+				<div class="container">
+					<div class="row justify-content-center text-center">
+						<div class="col-lg-12 p-0">
+							<div class="muri-portfolio-title position-relative">
+								<h1 class="strock-heading portfolio-back-title white-strock mb-0">Portfolio</h1>
+								<div class="muri-headi-text port-main-title black-text mb-0">Portfolio</div>
+							</div>
+							<div class="about-muri-desc">
+								<p class="muri-short-desc mb-0">Now, I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional wordpress theme Elonissa. If you are interested to work with me, contact with me right now, so we can talk about your project.</p>
+							</div>
+							<div class="tab-wrap light-tab">
+								<!-- active tab on page load gets checked attribute -->
+								<!-- <form> -->
+									<input type="radio" id="tab1" name="tabGroup1" class="tab" checked="">
+									<label for="tab1">All</label>
+
+									<input type="radio" id="tab2" name="tabGroup1" class="tab">
+									<label for="tab2">Detail</label>
+
+									<input type="radio" id="tab3" name="tabGroup1" class="tab">
+									<label for="tab3">Image</label>
+
+									<input type="radio" id="tab4" name="tabGroup1" class="tab">
+									<label for="tab4">Soundcloud</label>
+
+									<input type="radio" id="tab5" name="tabGroup1" class="tab">
+									<label for="tab5">Vimeo</label>
+
+									<input type="radio" id="tab6" name="tabGroup1" class="tab">
+									<label for="tab6">Youtube</label>
+								<!-- </form> -->
+
+								<div class="tab__content">
+									<div class="row justify-content-center text-center">
+										<div class="col-12 col-md-6 col-lg-4" id="deatil-col" data-bs-target="#muri_detail_content">
+											<div class="all-content all-deatil-card">
+												<div class="all-card">
+													<a href="single-detail.html">
+														<img src="./assets/images/portfolio/image-one.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="single-detail.html">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="single-detail.html">
+															<p class="all-card-subtitle w-text jost-400">Detail</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-deatil-slider">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="./assets/images/portfolio/image-seven.png">
+															<img src="./assets/images/portfolio/image-seven.png" alt="9.png">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+														<a class="image-popup-vertical-fit" href="./assets/images/portfolio/image-eight.png">
+															<img src="./assets/images/portfolio/image-eight.png" alt="10.png">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="./assets/images/portfolio/image-seven.png">
+															<div class="image-popup-vertical-fit all-card-title w-text">Murillo</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="./assets/images/portfolio/image-eight.png">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">Slider</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content sound-card">
+												<div class="all-card">
+													<a href="javascript:void(0);" class="button">
+														<img src="./assets/images/portfolio/image-three.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="javascript:void(0);" class="button">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="javascript:void(0);" class="button">
+															<p class="all-card-subtitle w-text jost-400">Soundcloud</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/344034735">
+														<img src="./assets/images/portfolio/image-four.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/344034735">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/344034735">
+															<p class="all-card-subtitle w-text jost-400">vimeo</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<a class="popup-youtube" href="https://www.youtube.com/embed/uM99m-OU4mM">
+														<img src="./assets/images/portfolio/image-five.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a class="popup-youtube" href="https://www.youtube.com/embed/uM99m-OU4mM"> 
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a class="popup-youtube" href="https://www.youtube.com/embed/uM99m-OU4mM">
+															<p class="all-card-subtitle w-text jost-400">youtube</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a href="./assets/images/portfolio/image-nine.png" class="magnific-image item item--small">
+															<img src="./assets/images/portfolio/image-nine.png" alt="9.png">
+														</a>	    				
+													</div>
+													<div class="info">
+														<a href="./assets/images/portfolio/image-nine.png" class="magnific-image item item--small">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="./assets/images/portfolio/image-nine.png" class="magnific-image item item--small"> 
+															<p class="all-card-subtitle w-text jost-400">light imtail/p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab__content">
+									<div class="row deatil-card-row justify-content-center text-center">
+										<div class="col-12 col-md-6 col-lg-4" id="deatil-col-one" data-bs-target="#muri_detail_content">
+											<div class="all-content detail-card-one">
+												<div class="all-card">
+													<a href="single-detail.html">
+														<img src="./assets/images/portfolio/image-twel.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="single-detail.html">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="single-detail.html">
+															<p class="all-card-subtitle w-text jost-400">Detail</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content detail-card-two">
+												<div class="all-card">
+													<a href="single-detail.html">
+														<img src="./assets/images/portfolio/image-thirt.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="single-detail.html">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="single-detail.html">
+															<p class="all-card-subtitle w-text jost-400">Detail</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content detail-card-three">
+												<div class="all-card">
+													<a href="single-detail.html">
+														<img src="./assets/images/portfolio/image-fourte.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="single-detail.html">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="single-detail.html">
+															<p class="all-card-subtitle w-text jost-400">Detail</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab__content">
+									<div class="row justify-content-start text-center">
+										<div class="col-12 col-md-6 col-lg-4" id="image-col" data-bs-target="#muri_detail_content">
+											<div class="all-content image-card-one">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a href="./assets/images/portfolio/image-ten.png" class="magnific-image item item--small">
+															<img src="./assets/images/portfolio/image-ten.png" alt="9.png">
+														</a>		    				
+													</div>
+													<div class="info">
+														<a href="./assets/images/portfolio/image-ten.png" class="magnific-image item item--small">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="./assets/images/portfolio/image-ten.png" class="magnific-image item item--small">
+															<p class="all-card-subtitle w-text jost-400">image</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content image-card-one">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a href="./assets/images/portfolio/image-ele.png" class="magnific-image item item--small">
+															<img src="./assets/images/portfolio/image-ele.png" alt="9.png">
+														</a>		    				
+													</div>
+													<div class="info">
+														<a href="./assets/images/portfolio/image-ele.png" class="magnific-image item item--small">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="./assets/images/portfolio/image-ele.png" class="magnific-image item item--small">
+															<p class="all-card-subtitle w-text jost-400">image</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab__content">
+									<div class="row justify-content-start text-center">
+										<div class="col-12 col-md-6 col-lg-4" id="sound-col" data-bs-target="#muri_detail_content">
+											<div class="all-content sound-cloud-card-one">
+												<div class="all-card">
+													<a href="javascript:void(0);" class="button">
+														<img src="./assets/images/portfolio/image-three.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="javascript:void(0);" class="button">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="javascript:void(0);" class="button">
+															<p class="all-card-subtitle w-text jost-400">Soundcloud</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content sound-cloud-card-two">
+												<div class="all-card">
+													<a href="javascript:void(0);" class="button">
+														<img src="./assets/images/portfolio/image-three.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="javascript:void(0);" class="button">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="javascript:void(0);" class="button">
+															<p class="all-card-subtitle w-text jost-400">Soundcloud</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab__content">
+									<div class="row justify-content-start text-center">
+										<div class="col-12 col-md-6 col-lg-4" id="vimeo-col" data-bs-target="#muri_detail_content">
+											<div class="all-content vimeo-card-one">
+												<div class="all-card">
+													<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/111939668">
+														<img src="./assets/images/portfolio/image-sevet.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/111939668">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/111939668">
+															<p class="all-card-subtitle w-text jost-400">vimeo</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content vimeo-card-two">
+												<div class="all-card">
+													<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/111939668">
+														<img src="./assets/images/portfolio/image-eighte.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/111939668">
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="javascript:void(0);" class="lets-play" data-video="https://vimeo.com/111939668">
+															<p class="all-card-subtitle w-text jost-400">vimeo</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab__content">
+									<div class="row justify-content-start text-center">
+										<div class="col-12 col-md-6 col-lg-4" id="youtube-col" data-bs-target="#muri_detail_content">
+											<div class="all-content youtube-card-one">
+												<div class="all-card">
+													<a class="popup-youtube" href="https://www.youtube.com/embed/uM99m-OU4mM">
+														<img src="./assets/images/portfolio/image-nint.png" alt="this is a all image" class="all-image">
+													</a>
+
+													<div class="info">
+														<a href="https://www.youtube.com/embed/uM99m-OU4mM" class="popup-youtube"> 
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="https://www.youtube.com/embed/uM99m-OU4mM" class="popup-youtube">
+															<p class="all-card-subtitle w-text jost-400">youtube</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content youtube-card-two">
+												<div class="all-card">
+													<a class="popup-youtube" href="https://www.youtube.com/embed/uM99m-OU4mM">
+														<img src="./assets/images/portfolio/image-twent.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="https://www.youtube.com/embed/uM99m-OU4mM" class="popup-youtube"> 
+															<div class="all-card-title w-text">Murillo</div>
+														</a>
+														<a href="https://www.youtube.com/embed/uM99m-OU4mM" class="popup-youtube">
+															<p class="all-card-subtitle w-text jost-400">youtube</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Portfolio Section end here -->
+			<div class="dot-rectangle-two lite-dot-rectangle">
+				<img src="./assets/images/homeimage/pink-dot-rectangle.png" class="muri-dot-rectangle-two" alt="this is a dot rectangle shape two">
+			</div>
+			<div class="dline-half-circle lite-half-circle">
+				<img src="./assets/images/homeimage/pink-half-circle.png" class="muri-half-circle" alt="this is a double line half circle">
+			</div>
+		</div>
+	</div>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+<script src="./assets/js/jquery.magnific-popup.min.js"></script>
+<script src="./assets/js/vimeo-pop.js"></script>
+<script src="./assets/js/gsap.min.js"></script>
+<script src="./assets/js/types.min.js"></script>
+<script src="./assets/js/custom.js"></script>
+</body>
+</html>
