@@ -785,6 +785,7 @@ div[data-value]:after {
 
 .interest-icon {
     border: 2px solid #303030;
+    color: var(--theme-color-hex);
     background-color: #0C0C0C;
     width: 125px;
     height: 125px;
@@ -808,8 +809,8 @@ div[data-value]:after {
     transition: all 0.3s ease;
     background-color: var(--theme-color-hex);
 }
-.about-inte-card:hover .interest-icon svg path{
-    fill:#fff;
+.about-inte-card:hover .interest-icon i{
+    color:#fff;
 }
 .about-interest-list, .second-interest-row, .about-client-list {
     margin-top: 60px;
@@ -2814,6 +2815,15 @@ canvas {
   transform:translateY(-100%);
   transition: all .3s 1s ease-out;
 }
+
+/**/
+.color-theme {
+    color: var(--theme-color-hex);
+}
+.bg-theme {
+    background-color: var(--theme-color-hex);
+}
+/**/
 
 /*Glitch Effect */
 /*
